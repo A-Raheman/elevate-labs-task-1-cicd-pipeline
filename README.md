@@ -84,6 +84,12 @@ docker build -t araheman/elevate-labs-task-1-cicd-pipeline:latest .
 docker run -d -p 3000:3000 --name elevate-cicd-app araheman/elevate-labs-task-1-cicd-pipeline:latest
 ```
 
+## Result
+The GitHub Actions workflow successfully:
+- ran automated tests
+- built the Docker image
+- pushed the image to DockerHub
+
 ## Learning Outcome
 - learned basic CI/CD workflow using GitHub Actions
 - learned Docker image build and push process
